@@ -3,7 +3,7 @@
     <lightning:navigation aura:id="navigation"/>
     <aura:attribute name="rows" type="Map[]"/>
     <aura:attribute name="cols" type="Map[]"/>
-    <lightning:card title="Account Listings Topher" iconName="standard:account">
+    <lightning:card title="Account Listings" iconName="standard:account">
         <lightning:datatable
             data="{!v.rows}"
             columns="{!v.cols}"
